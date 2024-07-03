@@ -330,7 +330,7 @@
 </body>
 </html>
 ~~~
-![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/c663be78-7ddc-42c3-a321-7e2982cedeb4)
+![image](https://github.com/sithihajara/html-ABC-college/assets/94219582/38b4436c-5e41-40c4-823c-59fd44632bf6)
 ![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/193b7f57-1f4e-45cb-9af6-6b4f62dc67bc)
 ![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/3dc002a5-90ba-49cc-bab3-8531ea6e3298)
 ![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/2746a310-2cd0-4509-95f6-f33cbcfe80a8)
