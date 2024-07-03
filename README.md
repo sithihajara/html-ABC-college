@@ -4,78 +4,120 @@
 ~~~
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            table,th,td{border:1px solid black}
-        </style>
-
-    </head>
+<head>
+    <title>My Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            border-style: double;
+            padding: 10px;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-style:none;
+        }
+        td {
+            border-style: double;
+            padding: 20px;
+            
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .task-list {
+            list-style-type: none;
+            padding-left: 100px;
+        }
+        .task-list li {
+            margin: 15px 0;
+        }
+        .subtask {
+            margin-left: 20px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .image-container img {
+            width: 45%;
+            margin: 5px 0;
+            border: 2px solid #000;
+        }
+        .things-to-watch-title {
+            border-style:double ;
+            background-color: yellow;
+            font-weight: bold;
+            text-align: center;
+            padding: 2px;
+        }
+        
+    </style>
+</head>
 <body>
-    <table cellpadding ="5">
-        <tr>
-            <th align="center" colspan="4"><span style="background-color: yellow;">Day</span></th>
 
+<div class="container">
+
+    <div class="header">My Day</div>
+    <table>
+        <tr>
+            <td style="width: 50%;">
+                <div class="section-title">1. Wake up early</div>
+                <ul class="task-list">
+                    <li><b>5AM</b></li>
+                    <li class="subtask">walk</li>
+                    <li class="subtask">jog</li>
+                </ul>
+            </td>
+            <td rowspan="3" style="width: 50%;">
+                <div class="things-to-watch-title">Things to watch</div>
+                <div class="image-container">
+                    <img src="im1.jpg" alt="jogging">
+                    <img src="im2.jpeg" alt="Breakfast">
+                    <img src="im3.jpg" alt="Coffee">
+                    <img src="im4.jpg" alt="Meeting">
+                </div>
+            </td>
         </tr>
         <tr>
             <td>
-                <ol type="1">
-                    <li>wake up early</li>
-                    <ul>
-                        <li type="square">5AM</li><br>
-                        <li>walk</li>
-                        <li>jog</li>
-                    </ul>
-                </ol>
-                
+                <div class="section-title">2. Breakfast</div>
+                <ul class="task-list">
+                    <li><b>8AM</b></li>
+                    <li class="subtask">eggs</li>
+                    <li class="subtask">coffee</li>
+                </ul>
             </td>
-            <td rowspan="3">
-
-                <table width="100%">
-                    <th align="center" colspan="2"><span style="background-color: yellow;">Things to watch</span></th>
-                    <tr >
-                        <td><img src="jog.jpg",width="100%"></td>
-                        <td><img src="breakfast.jpg"width="100%"></td>
-
-                    </tr>
-                    <tr>
-                        <td><img src="tea.jpg"width="100%"></td>
-                        <td><img src="learning.jpg"width="100%"></td>
-
-                    </tr>
-
-                </table>
-            </td>
-
-
         </tr>
         <tr>
-            <td><ol type="1" start="2">
-                <li>breakfast</li> 
-                <ul>
-                    <li type="square">8AM</li>
-<br></br>
-                    <li>eggs</li>
-                    <li>coffee</li>
+            <td>
+                <div class="section-title">3. Go to Saveetha</div>
+                <ul class="task-list">
+                    <li><b>8AM</b></li>
+                    <li class="subtask">attend classes</li>
+                    <li class="subtask">to be continued</li>
                 </ul>
-            </ol></td>
-
-        </tr>
-        <tr>
-            <td><ol type="1" start="3">
-                <li>go to saveetha</li> 
-                <ul>
-                    <li type="square">8AM</li><br>
-                    <li>attend class</li>
-                    <li>to be continued</li>
-                </ul>
-            </ol></td>
-
+            </td>
         </tr>
     </table>
+</div>
+
 </body>
 </html>
 ~~~
 ![image](https://github.com/sithihajara/html-ABC-college/assets/94219582/438674e9-6723-4dfc-b019-a15b6eddd05e)
+![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/868d7794-6929-4f06-938d-c5f13174a436)
 
 ### home.html:
 ~~~
