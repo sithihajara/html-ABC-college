@@ -75,8 +75,8 @@
 </body>
 </html>
 ~~~
-![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/273e4af9-2e23-4917-9683-c2cb4ea8b0fa)
-![image](https://github.com/RanjithD18/html-ABC-college/assets/93427221/868d7794-6929-4f06-938d-c5f13174a436)
+![image](https://github.com/sithihajara/html-ABC-college/assets/94219582/438674e9-6723-4dfc-b019-a15b6eddd05e)
+
 ### home.html:
 ~~~
 <!DOCTYPE html>
